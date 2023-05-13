@@ -3,7 +3,7 @@
 
 ```sh
     # Compose up
-    $ docker-compose up -d
+    $ docker compose up 
 ```
 
 Available Endpoints
@@ -13,9 +13,6 @@ Available Endpoints
     http://localhost:8001/  for consumer api
     http://localhost:8002/  for kafdrop ui
 ```
-
-
-
 
 
 Outside docker you can access kafka broker 
