@@ -13,6 +13,7 @@ load_dotenv()
 
 
 app = FastAPI(title='Kafka Producer API')
+
 kafka_server = Kafka(
     topic=config("KAFKA_TOPIC_NAME"),
     port=config("KAFKA_PORT"),
