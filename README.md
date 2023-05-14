@@ -11,7 +11,7 @@ Available Endpoints
 ```sh
     http://localhost:8000/  for producer api
     http://localhost:8001/  for consumer api
-    http://localhost:8002/  for kafdrop ui
+    http://localhost:9000/  for kafdrop ui
 ```
 
 
